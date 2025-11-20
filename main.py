@@ -10,6 +10,7 @@ import microutils
 plt.style.use('tableau-colorblind10')
 
 
+# Hi Leo!
 def main(args):
     # create interpolated power profiles
     training_profile = interp1d([  0,  10, 20, 30, 50, 70, 120, 140, 160, 195, 200], # times (s)
